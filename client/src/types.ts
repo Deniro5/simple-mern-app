@@ -3,3 +3,9 @@ export type Todo = {
   name: string;
   isComplete: boolean;
 };
+
+export type User = {
+  name: string;
+  email: string;
+  _id: string;
+};
